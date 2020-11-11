@@ -1,0 +1,153 @@
+.Container{
+    background-color:navajowhite;
+    display: inline-grid;
+    width: 101vw;
+    margin: 0;
+    padding:0;
+
+}
+
+a{
+    font-size: xx-small;
+}
+
+.credit{
+    font-size: xx-small;
+}
+
+.title{
+    text-align: center;
+    font-size: 22px;
+    background-color: antiquewhite;
+    border: 3px solid darkgray;
+    box-shadow: 0px 0px 5px 5px dimgray;
+    height: 25vh;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+@media screen and (max-width: 499px){
+    .title{
+        margin-left: 50px;
+    }
+    .stockPrice{
+        background-color:antiquewhite;
+        margin-left: 50px;
+        margin-right: 50px;
+        border: 3px solid darkgray;
+        padding: 20px;
+        margin-top: 50px;
+        box-shadow: 0px 0px 5px 5px dimgray;
+        height: 57vh;
+    }
+    .stockTrend{
+        background-color:antiquewhite;
+        margin: 50px;
+        border: 3px solid darkgray;
+        padding: 20px;
+        margin-top: 50px;
+        box-shadow: 0px 0px 5px 5px dimgray;
+        height: 57vh;
+    }
+    .stockBuy{
+        background-color:antiquewhite;
+        margin: 50px;
+        border: 3px solid darkgray;
+        padding: 20px;
+        margin-top: 50px;
+        box-shadow: 0px 0px 5px 5px dimgray;
+        height: 100vh;
+    }
+    
+    .image{
+        height: 40%;
+        width: auto;
+    }
+    
+    .image img{
+        margin-top: 40px;
+        height: 100px;
+        width: 100px;
+        margin-left: 20%;
+    }
+    
+    button, input {
+        margin: 5px;
+    }
+    
+    .stockBuy *, .stockPrice *, .stockTrend *{
+        margin: 10px;
+    }
+}
+
+
+
+@media screen and (min-width: 500px){
+    .Container{
+        height: 101vh;
+    }
+    .stockPrice{
+        background-color:antiquewhite;
+        position: absolute;
+        margin: 50px;
+        width: 25vw;
+        border: 3px solid darkgray;
+        padding: 20px;
+        margin-top: 250px;
+        box-shadow: 0px 0px 5px 5px dimgray;
+        height: 57vh;
+    }
+    .stockTrend{
+        background-color:antiquewhite;
+        position: absolute;
+        margin: 50px;
+        left: 32vw;
+        width: 25vw;
+        border: 3px solid darkgray;
+        padding: 20px;
+        margin-top: 250px;
+        box-shadow: 0px 0px 5px 5px dimgray;
+        height: 57vh;
+    }
+    .stockBuy{
+        background-color:antiquewhite;
+        position: absolute;
+        margin: 50px;
+        left: 63vw;
+        width: 25vw;
+        border: 3px solid darkgray;
+        padding: 20px;
+        margin-top: 250px;
+        box-shadow: 0px 0px 5px 5px dimgray;
+        height: 57vh;
+    }
+    
+    .image{
+        height: 40%;
+        width: auto;
+    }
+    
+    .image img{
+        margin-top: 10px;
+        height: 100px;
+        width: 100px;
+        margin-left: 35%;
+    }
+    
+    button, input {
+        margin: 5px;
+    }
+    
+    .stockBuy *, .stockPrice *, .stockTrend *{
+        margin: 10px;
+    }
+    
+}
+
+
+
+
+
+
+
